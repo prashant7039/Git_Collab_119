@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <style>
+        #login{
+           
+            width:25%;
+            height: 500 px;
+            margin: auto;
+            margin-top: 100px;
+            
+        }
+        h1+input{
+            margin: 100px 30px;
+            font-size: larger;
+            border: 0px;
+            
+            
+          
+        }
+        hr+input{
+            margin: 100px 30px;
+            font-size: larger;
+            border: 0px;
+            
+        }
+      h1{
+          margin: auto;
+          margin-top: 50px;
+          text-align: center;
+      }
+      hr{
+          margin-top: -100px;
+          margin-right: 30px;
+          margin-left: 30px;
+      }
+      button{
+          margin: 70px 100px;
+          padding: 15px 80px;
+          text-align: center;
+          font-size: larger;
+          border: 0px;
+          
+      }
+      button:hover{
+          cursor:pointer;
+          background-color:red
+      }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <input id="email"type="text" placeholder="Email">
+        <br>
+        <hr>    
+        <input id="pass" type="number"placeholder="Password">
+        <br>
+        <hr>
+        <button onclick="login()">Login</button>
+    </div>
+    
+</body>
+</html>
+<script>
+    function login(){
+        let emails=document.querySelector("#email").value
+        let pass=document.querySelector("#pass").value        
+        
+    }
+</script>
